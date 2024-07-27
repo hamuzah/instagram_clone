@@ -1,0 +1,130 @@
+/* src/Components/Dashboard.css
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+  }
+  
+  .theme-toggle,
+  .dashboard-header button {
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dashboard-main {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .feed {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .dark .dashboard-header,
+  .dark .sidebar,
+  .dark .feed {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark .theme-toggle,
+  .dark .dashboard-header button {
+    background-color: #888;
+  }
+   */
+
+
+   /* src/Components/Dashboard.css */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .dashboard-main {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .sidebar {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #dbdbdb;
+  }
+  
+  .feed {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .story,
+  .post {
+    margin-bottom: 20px;
+  }
+  
+  .story img,
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .story p,
+  .post p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #262626;
+  }
+
+  .theme-toggle,
+  .dashboard-header button {
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .dark .dashboard-header,
+  .dark .sidebar,
+  .dark .feed {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark .theme-toggle,
+  .dark .dashboard-header button {
+    background-color: #888;
+  }
+  

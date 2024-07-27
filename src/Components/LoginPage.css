@@ -1,0 +1,121 @@
+/* src/Components/LoginPage.css */
+body {
+    background-color: #fafafa;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 350px;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container input {
+    margin: 5px 0;
+    padding: 9px 0;
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    text-indent: 5px;
+  }
+  
+  .login-container button {
+    margin-top: 10px;
+    padding: 9px 0;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .or-divider .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .or-divider .or-text {
+    margin: 0 18px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #8e8e8e;
+  }
+  
+  .facebook-login {
+    margin: 10px 0;
+    padding: 9px 0;
+    background-color: #385185;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+  }
+  
+  .signup-redirect {
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signup-redirect a {
+    color: #3897f0;
+    text-decoration: none;
+  }
+  
+  .error {
+    color: #ed4956;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  /* src/Components/LoginPage.css */
+@media (max-width: 600px) {
+    .login-container {
+      width: 90%;
+      padding: 20px;
+    }
+    .signup-redirect {
+      width: 90%;
+    }
+  }
+  

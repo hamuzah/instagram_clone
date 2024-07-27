@@ -1,0 +1,15 @@
+{
+    "stories": [
+      { "id": 1, "user": "john_doe", "image": "https://via.placeholder.com/150", "timestamp": "2023-07-01T12:00:00Z" },
+      { "id": 2, "user": "jane_doe", "image": "https://via.placeholder.com/150", "timestamp": "2023-07-01T13:00:00Z" }
+    ],
+    "feeds": [
+      { "id": 1, "user": "john_doe", "image": "https://via.placeholder.com/300", "caption": "Hello World!", "timestamp": "2023-07-01T12:00:00Z" },
+      { "id": 2, "user": "jane_doe", "image": "https://via.placeholder.com/300", "caption": "Nice Day!", "timestamp": "2023-07-01T13:00:00Z" }
+    ],
+    "suggestions": [
+      { "id": 1, "user": "john_doe", "profile_image": "https://via.placeholder.com/50" },
+      { "id": 2, "user": "jane_doe", "profile_image": "https://via.placeholder.com/50" }
+    ]
+  }
+  

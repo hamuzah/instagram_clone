@@ -1,0 +1,74 @@
+/* src/Components/SignupPage.css */
+body {
+    background-color: #fafafa;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    width: 350px;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .signup-container h2 {
+    font-weight: 600;
+    color: #8e8e8e;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container input {
+    margin: 5px 0;
+    padding: 9px 0;
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    text-indent: 5px;
+  }
+  
+  .signup-container button {
+    margin-top: 10px;
+    padding: 9px 0;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .login-redirect {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .login-redirect a {
+    color: #3897f0;
+    text-decoration: none;
+  }
+  
+  .error {
+    color: #ed4956;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
